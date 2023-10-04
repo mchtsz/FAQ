@@ -8,8 +8,10 @@
       "path": "./tsconfig.app.json"
     }
   ],
-  "paths": {
+  "compilerOptions": {
+    "paths": {
       "@/": ["./src/"],
       "/" : ["./public/"]
     },
+  },
 }
