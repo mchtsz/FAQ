@@ -3,28 +3,22 @@ import { ref } from 'vue'
 
 const showItems = ref(false)
 
-const props = defineProps<{
+const {title, description} = defineProps<{
     title: string,
-    img?: string,
-    start: string,
-    mid: string,
-    end: string,
+    description: string,
 }>()
 </script>
 
 <template>
     <main>
         <div class="container">
-            <h2>{{ props.title }}</h2>
+            <h2>{{ title }}</h2>
             <button @click="showItems = !showItems">+</button>
         </div>
 
         <Transition name="slide">
             <div v-if="showItems" class="content">
-                <img :src="props.img" alt="image">
-                <p>{{ props.start }}</p>
-                <p>{{ props.mid }}</p>
-                <p>{{ props.end }}</p>
+                <p>{{ description }}</p>
             </div>
         </Transition>
     </main>

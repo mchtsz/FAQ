@@ -1,0 +1,46 @@
+{
+    "1": {
+        "title": "Er det vanskelig å kode?",
+        "description": "Det er så vanskelig du vil det skal være. Om du har lyst til å lære det så kommer det over tid. Det er mye å lære men man trenger ikke lære alt samtidig."
+    },
+    "2": {
+        "title": "Er det vanskelig å lære programering?",
+        "description": "Det er vanskeligere for noen enn andre men det er ikke umulig, hvis du tar deg tid til å lære det så kommer du til å gjøre det"
+    },
+    "3": {
+        "title": "Finnes det andre database løsninger enn php og sql?",
+        "description": "Man kan bruke Firebase som er et NoSQL database program fra google."
+    },
+    "4": {
+        "title": "Hva er meningen med PHP?",
+        "description": "Greien med PHP er at det er et språk som er ofte brukt innenfor serverside koding. Om man vil så kan man bruke andre kodespråk."
+    },
+    "5": {
+        "title": "Hva faen er en switch?",
+        "description": "Enkelt forklart kan du si at en nettverksswitch fungerer som en koblingsboks for nettverks- og internettforbindelse."
+    },
+    "6": {
+        "title": "Hva lærer man i Konseptutvikling?",
+        "description": "I konseptutvikling lærer man HTML, CSS, Javascript og hvordan man lager en nettside. Det er også sånn at man lærer om mySQL og PHP."
+    },
+    "7": {
+        "title": "Hva lærer man i teknologiforståelse?",
+        "description": "Vi lærer om rasberrypie, nettverk, InDesgn, kamera og videoredigering."
+    },
+    "8": {
+        "title": "Hvordan skal jeg kunne etter jeg er ferdig på Vg1?",
+        "description": "Du skal kunne kode nettsider med relativt god forståelse for hva du driver med, og du skal kunne bruke kamera og utstyr til å produsere."
+    },
+    "9": {
+        "title": "Hvordan får man seg praksisplass?",
+        "description": "Ved å være proaktiv, og søke, ringe, og vise din beste side."
+    },
+    "10": {
+        "title": "Hvordan lager man en nettside?",
+        "description": "En nettside er bare HTML kode. For at det skal være noe fancy eller opp til dagens standard så må man kombinere HTML kode med andre kodespråk."
+    },
+    "11": {
+        "title": "Hvordan får man seg praksisplass?",
+        "description": "Ved å være proaktiv, og søke, ringe, og vise din beste side."
+    }
+}

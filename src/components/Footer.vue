@@ -4,7 +4,8 @@
 
 <template>
     <footer>
-        <h1>Har du andre ubesvarte spørsmål? Send meg melding på discord / teams.</h1>
+        <h1>Spørsmål? Send meg en <a href="mailto:e-marhat7@iskule.no">mail</a>:
+         </h1>
     </footer>
 </template>
 

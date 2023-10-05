@@ -14,8 +14,4 @@ import Footer from "./components/Footer.vue"
 
 <style scoped lang="scss">
 @import "./assets/main.css";
-
-main {
-  height: 100vh;
-}
 </style>

@@ -5,11 +5,7 @@ import { RouterLink } from "vue-router"
 <template>
     <nav>
         <RouterLink to="/">
-            HOME
-        </RouterLink>
-
-        <RouterLink to="/faq">
-            FAQ
+            FAQ FOR 1 IM ELEVER
         </RouterLink>
     </nav>
 </template>
