@@ -11,7 +11,7 @@ import kodd from "@/assets/json/kodd.json"
 
 <style scoped lang=scss>
 section {
-    height: 100vh;
+    height: 100%;
     padding: 2rem 0;
 }
 </style>

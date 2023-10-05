@@ -87,7 +87,7 @@ main {
 
 .content p {
     margin: 0;
-    padding: 10px;
+    padding: 2rem 1rem;
 }
 
 .slide-enter-active {

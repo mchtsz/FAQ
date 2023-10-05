@@ -22,6 +22,7 @@ nav {
     a {
         transition: 0.2s ease-in-out;
         font-size: 20px;
+        font-weight: 600;
         color: #000;
         text-decoration: none;
 

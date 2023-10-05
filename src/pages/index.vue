@@ -1,19 +1,14 @@
 <script setup lang=ts>
 import { RouterLink } from "vue-router"
+import Card from "@/components/Card.vue"
 </script>
 
 <template>
     <nav>
-            <RouterLink to="/faq/programmering">
-                IT spørsmål (koding, html, js)
-            </RouterLink>
-            <RouterLink to="/faq/eksamen">
-                Eksamen spørsmål
-            </RouterLink>
-            <RouterLink to="/faq/kodd">
-                Køddespørsmål
-            </RouterLink>
-        </nav>
+        <Card img="/Code.svg" title="IT spørsmål (koding, html, js)" link="/faq/programmering/" />
+        <Card img="/Academic.svg" title="Eksamen spørsmål" link="/faq/eksamen/" />
+        <Card img="/Question.svg" title="Køddespørsmål" link="/faq/kodd/" />
+    </nav>
 </template>
 
 <style scoped lang=scss>
@@ -23,15 +18,5 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     height: 80vh;
-
-    a {
-        font-size: 24px;
-        color: #000;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
 }
 </style>
